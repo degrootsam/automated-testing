@@ -48,7 +48,7 @@ async function startRemixServer() {
   const entry = path.resolve(
     app.getAppPath(),
     app.isPackaged ? "../" : "",
-    "myapp",
+    "dist",
     "server.js",
   );
 

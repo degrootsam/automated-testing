@@ -1,0 +1,1 @@
+import{j as o}from"./jsx-runtime-0DLF9kdB.js";import{a,d as n,O as r}from"./components-DAwjMhVV.js";function c(){const{suite:t,dependencies:e}=a(),{project:s}=n();return o.jsx(r,{context:{suite:t,project:s,dependencies:e}})}export{c as default};

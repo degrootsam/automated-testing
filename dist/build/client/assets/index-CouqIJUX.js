@@ -1,0 +1,1 @@
+import{j as a}from"./jsx-runtime-0DLF9kdB.js";import{c as i}from"./index-ZxjzPnyj.js";function p({children:t,message:o,className:s}){return a.jsx("div",{className:i("tooltip",s),"data-tip":o,children:t})}export{p as T};
