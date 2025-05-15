@@ -1,8 +1,8 @@
 {
   "name": "automated-testing",
   "productName": "automated-testing",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "version": "1.0.1",
+  "description": "test a random edit for new versions",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -15,6 +15,9 @@
   "author": {
     "name": "Sam",
     "email": "39275315+degrootsam@users.noreply.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/degrootsam/automated-testing"
   },
   "license": "MIT",
   "devDependencies": {

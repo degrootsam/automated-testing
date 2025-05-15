@@ -10,7 +10,7 @@ import { FuseV1Options, FuseVersion } from "@electron/fuses";
 const config: ForgeConfig = {
   packagerConfig: {
     asar: true,
-    extraResource: ["myapp"],
+    extraResource: ["dist"],
   },
   rebuildConfig: {},
   makers: [
@@ -24,7 +24,7 @@ const config: ForgeConfig = {
       name: "@electron-forge/publisher-github",
       config: {
         repository: {
-          owner: "me",
+          owner: "degrootsam",
           name: "automated-testing",
         },
         prerelease: true,
